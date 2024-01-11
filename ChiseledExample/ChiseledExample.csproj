@@ -6,6 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <!-- Always use Fast mode as Regular mode will use the Chiseled image that doesn't support debugging. -->
+    <ContainerDevelopmentMode>Fast</ContainerDevelopmentMode>
   </PropertyGroup>
 
   <ItemGroup>
